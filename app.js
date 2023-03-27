@@ -1,5 +1,5 @@
 async function fetchChatGPTResponse(prompt) {
-    const API_KEY = 'your_openai_api_key_here';
+    const API_KEY = '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';
     const API_URL = 'https://api.openai.com/v1/engines/davinci-codex/completions';
   
     const headers = new Headers({
