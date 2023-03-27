@@ -1,0 +1,18 @@
+{
+  "name": "codexrws-playground",
+  "version": "1.0.0",
+  "description": "A simple Codex Playground for running code using the ChatGPT API.",
+  "main": "app.js",
+  "scripts": {
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "your_git_repository_url"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}

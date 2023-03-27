@@ -1,5 +1,10 @@
+import { config } from "dotenv"
+config()
+
+console.log(process.env.API_KEY)
+
 async function fetchChatGPTResponse(prompt) {
-    const API_KEY = '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';
+    const API_KEY = process.env.API_KEY;
     const API_URL = 'https://api.openai.com/v1/engines/davinci-codex/completions';
   
     const headers = new Headers({
